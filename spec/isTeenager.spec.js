@@ -1,11 +1,6 @@
 'use strict';
 
 describe('isTeenager', function() {
-
-  var isTeenager;
-  beforeEach(function() {
-    isTeenager = require('../lib/isTeenager');
-  });
   describe( "#is_between", function() {
     it("returns false if the person is younger than 13", function() {
       expect(isTeenager(12)).toBe(false);
